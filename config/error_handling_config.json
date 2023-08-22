@@ -1,0 +1,8 @@
+{
+    "error_handling": {
+      "enable_warnings": true,
+      "critical_error_threshold": 5,
+      "emergency_land_on_error": true
+    }
+  }
+  

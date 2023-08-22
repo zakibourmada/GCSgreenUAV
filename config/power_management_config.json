@@ -1,0 +1,8 @@
+{
+    "power_management": {
+      "battery_threshold_low": 20,
+      "battery_threshold_critical": 10,
+      "energy_saving_mode": true
+    }
+  }
+  

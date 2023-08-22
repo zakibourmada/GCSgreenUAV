@@ -1,0 +1,14 @@
+{
+    "missions": {
+      "waypoints": [
+        { "latitude": 37.7749, "longitude": -122.4194, "altitude": 10 },
+        { "latitude": 37.3382, "longitude": -121.8863, "altitude": 20 },
+        { "latitude": 37.4275, "longitude": -122.1702, "altitude": 15 }
+      ],
+      "mission_objectives": [
+        { "type": "photography", "target": "landmark" },
+        { "type": "observation", "target": "area" }
+      ]
+    }
+  }
+  

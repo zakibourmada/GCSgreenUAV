@@ -1,0 +1,17 @@
+{
+    "flight_modes": {
+      "manual": {
+        "max_speed": 10,
+        "max_altitude": 50
+      },
+      "autonomous": {
+        "waypoint_tolerance": 2,
+        "obstacle_detection": true
+      },
+      "emergency": {
+        "land_timeout": 10,
+        "return_home_timeout": 20
+      }
+    }
+  }
+  

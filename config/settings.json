@@ -1,0 +1,19 @@
+{
+    "communication": {
+      "port": "/dev/ttyUSB0",
+      "baud_rate": 115200
+    },
+    "visualization": {
+      "map_provider": "Google Maps",
+      "graph_type": "Line Chart"
+    },
+    "telemetry": {
+      "update_interval": 1000,
+      "max_altitude": 100
+    },
+    "user_interface": {
+      "theme": "Dark Mode",
+      "language": "English"
+    }
+  }
+  

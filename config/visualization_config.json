@@ -1,0 +1,9 @@
+{
+    "visualization": {
+      "map_provider": "Google Maps",
+      "graph_type": "Line Chart",
+      "color_scheme": "Dark",
+      "theme": "Default"
+    }
+  }
+  

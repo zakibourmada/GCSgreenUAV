@@ -1,0 +1,9 @@
+{
+    "telemetry": {
+      "update_interval": 1000,
+      "max_altitude": 100,
+      "altitude_unit": "meters",
+      "battery_unit": "percentage"
+    }
+  }
+  

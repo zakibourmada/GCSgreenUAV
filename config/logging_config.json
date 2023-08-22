@@ -1,0 +1,8 @@
+{
+    "logging": {
+      "log_level": "INFO",
+      "log_file_path": "/var/log/gcs_log.txt",
+      "log_format": "[%(asctime)s] [%(levelname)s] %(message)s"
+    }
+  }
+  

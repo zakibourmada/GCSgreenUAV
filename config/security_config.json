@@ -1,0 +1,13 @@
+{
+    "security": {
+      "authentication_enabled": true,
+      "encryption_enabled": true,
+      "access_control": {
+        "user_roles": {
+          "admin": ["configure", "execute", "monitor"],
+          "guest": ["execute", "monitor"]
+        }
+      }
+    }
+  }
+  

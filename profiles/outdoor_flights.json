@@ -1,0 +1,86 @@
+{
+    "outdoor_flight": {
+      "communication": {
+        "port": "/dev/ttyUSB0",
+        "baud_rate": 57600,
+        "connection_protocol": "Wi-Fi"
+      },
+      "visualization": {
+        "map_provider": "Google Maps",
+        "graph_type": "Line Chart",
+        "color_scheme": "Dark",
+        "theme": "Outdoor"
+      },
+      "telemetry": {
+        "update_interval": 1000,
+        "max_altitude": 100,
+        "altitude_unit": "meters",
+        "battery_unit": "percentage"
+      },
+      "user_interface": {
+        "theme": "Dark Mode",
+        "language": "English",
+        "interaction_mode": "Touch",
+        "element_spacing": "Normal"
+      },
+      "flight_modes": {
+        "manual": {
+          "max_speed": 10,
+          "max_altitude": 150
+        },
+        "autonomous": {
+          "waypoint_tolerance": 5,
+          "obstacle_detection": true
+        },
+        "emergency": {
+          "land_timeout": 10,
+          "return_home_timeout": 20
+        }
+      },
+      "missions": {
+        "waypoints": [
+          { "latitude": 37.7749, "longitude": -122.4194, "altitude": 20 },
+          { "latitude": 34.0522, "longitude": -118.2437, "altitude": 25 },
+          { "latitude": 40.7128, "longitude": -74.0060, "altitude": 30 }
+        ],
+        "mission_objectives": [
+          { "type": "survey", "target": "landscape" },
+          { "type": "photography", "target": "scenic views" }
+        ]
+      },
+      "security": {
+        "authentication_enabled": true,
+        "encryption_enabled": true,
+        "access_control": {
+          "user_roles": {
+            "admin": ["configure", "execute", "monitor"],
+            "pilot": ["execute", "monitor"]
+          }
+        }
+      },
+      "logging": {
+        "log_level": "INFO",
+        "log_file_path": "/var/log/outdoor_gcs_log.txt",
+        "log_format": "[%(asctime)s] [%(levelname)s] %(message)s"
+      },
+      "error_handling": {
+        "enable_warnings": true,
+        "critical_error_threshold": 5,
+        "emergency_land_on_error": true
+      },
+      "power_management": {
+        "battery_threshold_low": 20,
+        "battery_threshold_critical": 10,
+        "energy_saving_mode": true
+      },
+      "hardware": {
+        "pins": {
+          "I2C": [2, 3],
+          "UART": [1, 3],
+          "SPI": [10, 11, 12, 13],
+          "GPIO": [4, 6, 8, 10]
+        }
+      }
+    }
+  }
+  
