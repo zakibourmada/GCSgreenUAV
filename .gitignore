@@ -24,7 +24,41 @@
 *.lai
 *.la
 *.a
-*.lib
+*.lib 
+# Compiled binaries
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Build artifacts
+build/
+dist/
+bin/
+obj/
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Dependency directories
+node_modules/
+venv/
+env/
+
+# Log files
+*.log
+
+# Compiled output
+*.o
+
+# macOS specific files
+.DS_Store
+
 
 # Executables
 *.exe
